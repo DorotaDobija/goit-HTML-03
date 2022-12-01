@@ -4,6 +4,13 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -15,32 +22,39 @@
   </head>
   <body>
     <header>
-      <div>
-        <a class="logo" href="index.html"><span class="logoweb">Web</span>Studio</a>
-        <nav>
-          <ul class="list nav-list">
-            <li class="nav-list-item">
-              <a class="nav-list-item-link" href="index.html">Agencja</a>
-            </li>
-            <li class="nav-list-item">
-              <a class="nav-list-item-link" href="portfolio.html">Portfolio</a>
-            </li>
-            <li class="nav-list-item">
-              <a class="nav-list-item-link" href="index.html">Kontakt</a>
-            </li>
-          </ul>
-        </nav>
-        <a class="contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a>
-        <a class="contact-links" href="tel:+48111111111">+48 111 111 111</a>
+      <!-- NAV BOX -->
+      <div class="site-nav">
+        <div class="conteiner main-nav-box">
+          <nav class="nav-box">
+            <a class="logo" href="index.html"><span class="logoweb">Web</span>Studio</a>
+            <ul class="list nav-list">
+              <li class="nav-list-item">
+                <a class="nav-list-item-link" href="index.html">Agencja</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-list-item-link" href="portfolio.html">Portfolio</a>
+              </li>
+              <li class="nav-list-item">
+                <a class="nav-list-item-link" href="index.html">Kontakt</a>
+              </li>
+            </ul>
+          </nav>
+          <div class="contact-box">
+            <a class="contact-links" href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="contact-links" href="tel:+48111111111">+48 111 111 111</a>
+          </div>
+        </div>
       </div>
     </header>
     <main>
+      <!-- TITLE BOX -->
       <section>
         <div class="title-box">
           <h1 class="page-title">Efektywne rozwiązania <br />dla waszego biznesu</h1>
           <button class="button-title" type="button">Zamów usługę</button>
         </div>
       </section>
+      <!-- MAIN TEKST BOX -->
       <section>
         <ul class="list main-text-list">
           <li>
@@ -77,6 +91,7 @@
           </li>
         </ul>
       </section>
+      <!-- PICTURES BOX -->
       <section>
         <h2 class="secondary-heading">Czym się zajmujemy</h2>
         <img src="images/computer.jpg" alt="praca na komputerze" width="370" height="294" />
@@ -93,6 +108,7 @@
           height="294"
         />
       </section>
+      <!-- TEAM BOX -->
       <section class="team">
         <div>
           <h2 class="secondary-heading">Nasz zespół</h2>

@@ -170,5 +170,32 @@ body {
   color: var(--secondary-color);
 }
 .list {
-    list-style-type: none;
-  }
+  list-style-type: none;
+}
+.conteiner {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.main-nav-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav-box {
+  display: flex;
+  align-items: center;
+}
+.nav-list {
+  display: flex;
+  gap: calc((100%-92px) / 3);
+  padding: 0;
+  margin: 32px 371px 32px 93px;
+}
+.contact-box {
+  display: flex;
+  margin: 32px 0px;
+  gap: 50px;
+}
+.site-nav {
+  border-bottom: 1px solid #ececec;
+}
