@@ -114,6 +114,7 @@ body {
   line-height: 1.16;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-bottom: 50px;
 }
 
 .team-name {
@@ -122,6 +123,9 @@ body {
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.03em;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  padding: 0;
 }
 
 .team-job {
@@ -130,6 +134,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secondary-color);
+  margin-bottom: 30px;
 }
 
 .footer-box {
@@ -178,6 +183,7 @@ body {
 }
 * {
   margin: 0;
+  padding: 0;
 }
 .conteiner {
   max-width: 1200px;
@@ -221,4 +227,23 @@ body {
 .main-text-list {
   display: flex;
   gap: 30px;
+  padding: 0;
+}
+.picture-box {
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+.team-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  gap: 30px;
+}
+.team-list-item {
+  border-radius: 4px;
+  box-shadow: black;
+}
+.team-section {
+  background-color: #f5f4fa;
 }
