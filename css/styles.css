@@ -193,9 +193,11 @@ body {
   margin: 0;
   padding: 0;
 }
-.conteiner {
+.container {
   max-width: 1200px;
   margin: 0 auto;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .main-nav-box {
   display: flex;
@@ -223,7 +225,7 @@ body {
 .site-nav {
   border-bottom: 1px solid #ececec;
 }
-.title-conteiner {
+.title-container {
   height: 600px;
   display: flex;
   flex-direction: column;
