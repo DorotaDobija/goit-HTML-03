@@ -69,6 +69,7 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  padding-top: 200px;
 }
 
 .title-box {
@@ -90,6 +91,7 @@ body {
   border: none;
   padding: 10px 41px 10px 42px;
   offset: 0 4px;
+  margin-bottom: 200px;
 }
 
 .main-text {
@@ -213,7 +215,6 @@ body {
   gap: 46px;
   padding-top: 32px;
   padding-bottom: 32px;
-  margin-right: 371px;
   margin-left: 93px;
 }
 .contact-box {
@@ -226,7 +227,6 @@ body {
   border-bottom: 1px solid #ececec;
 }
 .title-container {
-  height: 600px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -296,4 +296,7 @@ body {
 }
 .team-list-item * {
   display: block;
+}
+.secondary-logo {
+  color: var(--white-color);
 }
