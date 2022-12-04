@@ -69,7 +69,6 @@ body {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
-  padding-top: 200px;
 }
 
 .title-box {
@@ -90,8 +89,6 @@ body {
   border-radius: 4px;
   border: none;
   padding: 10px 41px 10px 42px;
-  offset: 0 4px;
-  margin-bottom: 200px;
 }
 
 .main-text {
@@ -232,6 +229,7 @@ body {
   align-items: center;
   justify-content: center;
   gap: 30px;
+  padding: 200px 0;
 }
 .section {
   padding-top: 94px;
